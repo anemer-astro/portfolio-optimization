@@ -31,15 +31,13 @@ $$
 **Sharpe Ratio**
 
 $$
-\text{Sharpe}(w) = 
-\frac{w^\top \mu - r_f}{\sqrt{w^\top \Sigma w}}
+\text{Sharpe}(w) = \frac{w^\top \mu - r_f}{\sqrt{w^\top \Sigma w}}
 $$
 
-**Risk Contribution (Asset \(i\))**
+**Risk Contribution**
 
 $$
-RC_i = 
-\frac{w_i \cdot (\Sigma w)_i}{w^\top \Sigma w}
+RC_i = \frac{w_i \cdot (\Sigma w)_i}{w^\top \Sigma w}
 $$
 
 
