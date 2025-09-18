@@ -20,20 +20,28 @@ python portfolio_opt_plus_regime.py --download --rf 0.045 --benchmark VTI   --ma
 6. **Black–Litterman** — Blends equilibrium returns with **investor views** (e.g., `"BTC-USD:+0.08@0.001,BIL:+0.02@0.001"`), where `@` is the view variance (smaller = higher confidence).  
 7. **Backtest** — In-sample fixed-weight backtest vs a benchmark (e.g., VTI) + optional **regime-aware scaling** of risk based on a volatility proxy.
 
-### Key Formulas
+## 📐 Key Formulas
 
-- **Portfolio variance**:  
-  \[
-  \sigma_p^2 = w^\top \Sigma w
-  \]
-- **Sharpe ratio**:  
-  \[
-  \text{Sharpe}(w) = \frac{w^\top \mu - r_f}{\sqrt{w^\top \Sigma w}}
-  \]
-- **Risk contribution (asset \(i\))**:  
-  \[
-  RC_i = \frac{w_i \cdot (\Sigma w)_i}{w^\top \Sigma w}
-  \]
+**Portfolio Variance**
+
+$$
+\sigma_p^2 = w^\top \Sigma w
+$$
+
+**Sharpe Ratio**
+
+$$
+\text{Sharpe}(w) = 
+\frac{w^\top \mu - r_f}{\sqrt{w^\top \Sigma w}}
+$$
+
+**Risk Contribution (Asset \(i\))**
+
+$$
+RC_i = 
+\frac{w_i \cdot (\Sigma w)_i}{w^\top \Sigma w}
+$$
+
 
 ### Reproduce the Figures
 
