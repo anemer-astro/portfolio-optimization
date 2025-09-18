@@ -1,7 +1,0 @@
-*.png
-*.jpg
-*.jpeg
-*.pdf
-!efficient_frontier_mc.png
-!backtest_cum_returns.png
-!backtest_cum_returns_regime.png

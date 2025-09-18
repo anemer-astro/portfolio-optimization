@@ -54,4 +54,8 @@ python scripts/portfolio_opt_plus_regime.py --download --rf 0.045 --benchmark VT
 ```
 ### Example output
 ![Efficient Frontier](figures/efficient_frontier_mc.png)
+<<<<<<< HEAD
 ![Backtest](figures/backtest_cum_returns_regime.png)
+=======
+![Backtest](figures/backtest_cum_returns_regime.png)
+>>>>>>> f618338 (Remove all .gitignore files (track all files))
