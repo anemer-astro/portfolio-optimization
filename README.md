@@ -45,7 +45,7 @@ python scripts/portfolio_opt_plus_regime.py --download --rf 0.045 --benchmark VT
   --regime-low-pct 0.2 --regime-high-pct 0.8 \
   --regime-low-scale 1.3 --regime-mid-scale 1.0 --regime-high-scale 0.7 \
   --view "BTC-USD:+0.08@0.001,BIL:+0.02@0.001"
-
+```
 ### Example output
 ![Efficient Frontier](figures/efficient_frontier_mc.png)
 ![Backtest](figures/backtest_cum_returns.png)
