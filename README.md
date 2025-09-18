@@ -48,4 +48,4 @@ python scripts/portfolio_opt_plus_regime.py --download --rf 0.045 --benchmark VT
 ```
 ### Example output
 ![Efficient Frontier](figures/efficient_frontier_mc.png)
-![Backtest](figures/backtest_cum_returns.png)
+![Backtest](figures/backtest_cum_returns_regime.png)
